@@ -6,6 +6,7 @@ package com.company;
 
 public class Sorting {
     public static Integer[] BubbleSort (Integer[] array) {
+        System.out.println("Test!");
         Integer[] result = new Integer[2];
         int switches = 0;
         int comparisons = 0;
